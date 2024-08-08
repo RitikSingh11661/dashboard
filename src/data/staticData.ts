@@ -20,7 +20,7 @@ export const lineChartData: ChartData = {
   ],
 };
 
-export const barChartData={
+export const barChartData: ChartData = {
   labels: ['Product A', 'Product B', 'Product C', 'Product D', 'Product E', 'Product F'],
   datasets: [
     {
@@ -42,12 +42,14 @@ export const barChartData={
         'rgba(153, 102, 255, 1)',
         'rgba(255, 159, 64, 1)',
       ],
+      borderWidth: 1,
     },
     {
       label: 'Number of Views',
       data: [20, 30, 15, 25, 18, 22],
       backgroundColor: 'rgba(153, 102, 255, 0.2)',
-      borderColor: 'rgba(153, 102, 255, 1)'
+      borderColor: 'rgba(153, 102, 255, 1)',
+      borderWidth: 1,
     },
   ],
 };
