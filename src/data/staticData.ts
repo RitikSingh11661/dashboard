@@ -1,6 +1,6 @@
 import { ChartData, TableData } from '@/type';
 
-export const lineChartData={
+export const lineChartData: ChartData = {
   labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
   datasets: [
     {
@@ -20,7 +20,7 @@ export const lineChartData={
   ],
 };
 
-export const barChartData: ChartData = {
+export const barChartData= {
   labels: ['Product A', 'Product B', 'Product C', 'Product D', 'Product E', 'Product F'],
   datasets: [
     {
