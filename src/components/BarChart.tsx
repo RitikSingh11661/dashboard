@@ -7,7 +7,7 @@ interface BarChartProps {
   data: ChartData;
 }
 
-const BarChart = ({ data }: BarChartProps) => {
+const BarChart = ({ data }:any) => {
   const chartRef = useRef<HTMLCanvasElement>(null);
   const chartInstance = useRef<Chart | null>(null);
 
